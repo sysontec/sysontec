@@ -1,29 +1,9 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import logo from "../img/1.jpg";
 import  "../css/styless.css";
+import Carousel from './carousel';
+import navItems from '../json/navItem.json';
 export default function header(){
-    const navItems = [
-        {
-            name: 'Home',
-            link: '/'
-        },
-        {
-            name: 'About',
-            link: '/about'
-        },
-        {
-            name: 'Contact',
-            link: '/contact'
-        },
-        {
-            name: 'Price',
-            link: '/price'
-        },
-        {
-            name: 'Portfolio',
-            link: '/portfolio'
-        }
-    ];
     return (
         <Router>
             <nav className="navbar navbar-expand-sm navbar-dark bg-dark mt-0">
@@ -46,7 +26,8 @@ export default function header(){
                                         </li>
                                     );
                                 })
-                                }
+                            }
+                                
                         
                         </ul>
                     </div>
@@ -67,6 +48,8 @@ export default function header(){
                 </div>
 
             </nav>
+            <Carousel/>
         </Router>
+
     );
 }
