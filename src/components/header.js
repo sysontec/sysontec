@@ -3,6 +3,8 @@ import logo from "../img/1.jpg";
 import  "../css/styless.css";
 import Carousel from './carousel';
 import navItems from '../json/navItem.json';
+import Footer from './footer';
+import Body from './body';
 export default function header(){
     return (
         <Router>
@@ -49,6 +51,8 @@ export default function header(){
 
             </nav>
             <Carousel/>
+           <Body/> 
+            <Footer/>
         </Router>
 
     );

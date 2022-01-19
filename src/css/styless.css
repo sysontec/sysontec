@@ -1,4 +1,17 @@
+body,html{
+padding: 0;
+margin: 0;
+}
 .space{
     padding-left: 5%;
     align-items: center;
+}
+.card-size{
+    width: 17rem;
+}
+.center-text{
+    text-align: center;
+}
+.position{
+    z-index: 1;
 }

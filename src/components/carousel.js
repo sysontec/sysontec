@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import React from "react";
 import imgs from "../json/carousel.json";
 const images = require.context('../img', true);
@@ -20,10 +21,10 @@ export default function Carousel() {
                         return (
                             <div className={item.active?"carousel-item active":"carousel-item"} data-bs-interval="2000">
                                 <img src= {images(item.path)} className="d-block w-100" height={height} alt="..." />
-                                <div className="carousel-caption d-none d-md-block">
-                                    <h5>{item.title}</h5>
+{/*                                 <div className="carousel-caption d-none d-md-block">
+                                    <button type="button" className="btn btn-primary" >{item.title}</button>
                                     <p>{item.description}</p>
-                                </div>
+                                </div> */}
                             </div>
                         );
                     }
