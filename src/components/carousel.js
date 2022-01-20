@@ -5,7 +5,7 @@ const images = require.context('../img', true);
 export default function Carousel() {
     let height = "400px";
     return (
-        <div id="carouselExampleDark" className="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleDark" className="carousel  slide" data-bs-ride="carousel" style={{"margin-top":"56px"}}>
             <div className="carousel-indicators">
             {
                 imgs.map((item, index) => {
@@ -15,12 +15,12 @@ export default function Carousel() {
                     })
             }
             </div>
-            <div className="carousel-inner">
+            <div className="carousel-inner h-inherit w-inherit w-100">
                 {
                     imgs.map((item) => {
                         return (
-                            <div className={item.active?"carousel-item active":"carousel-item"} data-bs-interval="2000">
-                                <img src= {images(item.path)} className="d-block w-100" height={height} alt="..." />
+                            <div className={item.active?"carousel-item h-inherit w-inherit w-100 active":"carousel-item h-inherit w-inherit w-100"} data-bs-interval="2000">
+                                <img src= {images(item.path)} className="d-block w-100" height={height} id="carousel-img" alt="..." />
 {/*                                 <div className="carousel-caption d-none d-md-block">
                                     <button type="button" className="btn btn-primary" >{item.title}</button>
                                     <p>{item.description}</p>
