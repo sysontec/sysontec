@@ -5,7 +5,7 @@ export default function body() {
         <div className="container-fluid">
             <div className="row">
                 <h1 className="title center-text">
-                    <strong>Nuestros Servicios</strong>
+                    <strong>Nuestros trabajos</strong>
                 </h1>
             </div>
             <Card />
