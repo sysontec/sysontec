@@ -8,7 +8,7 @@ import Body from './body';
 export default function header(){
     return (
         <Router>
-            <nav className="navbar navbar-expand-sm navbar-dark bg-dark mt-0">
+            <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
                 <div className="container-fluid ">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@ export default function header(){
                             {
                                 navItems.map((item) => {
                                     return (
-                                        <li className="nav-item">
+                                        <li className="nav-item underline">
                                             <Link to={item.link} className="nav-link">{item.name}</Link>
                                         </li>
                                     );
@@ -42,15 +42,16 @@ export default function header(){
                     <a href="https://www.instagram.com" className="btn btn-dark">
                     <i className="fab fa-instagram"></i>
                     </a>
-                    <a href="https://www.twitter.com" className="btn btn-dark">
+                    {/* <a href="https://www.twitter.com" className="btn btn-dark">
                     <i className="fab fa-twitter"></i>
-                    </a>
+                    </a> */}
                   
 
                 </div>
 
             </nav>
             <Carousel/>
+    
            <Body/> 
             <Footer/>
         </Router>
