@@ -40,6 +40,7 @@ export default function body() {
                     <strong>Contactos</strong>
                 </h1>
             </div>
+            
         </div>
 
     );
