@@ -4,6 +4,20 @@
         "title":"Paginas estaticas",
         "content":"Sistema web que contiene paginas estaticas",
         "btn-text":"Ver demo",
+        "btn-link":"https://www.facebook.com"
+    },
+    {
+        "img":"1.jpeg",
+        "title":"Paginas estaticas",
+        "content":"Sistema web que contiene paginas estaticas",
+        "btn-text":"Ver demo",
+        "btn-link":"https://www.google.com"
+    },
+    {
+        "img":"1.jpeg",
+        "title":"Paginas estaticas",
+        "content":"Sistema web que contiene paginas estaticas",
+        "btn-text":"Ver demo",
         "btn-link":"https://www.google.com"
     }
 ]

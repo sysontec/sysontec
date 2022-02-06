@@ -1,22 +1,22 @@
 [
     {
-        "name": "Home",
+        "name": "Inicio",
         "link": "/"
     },
     {
-        "name": "About",
+        "name": "Acerca",
         "link": "/about"
     },
     {
-        "name": "Contact",
+        "name": "Contactos",
         "link": "/contact"
     },
     {
-        "name": "Price",
+        "name": "Precios",
         "link": "/price"
     },
     {
-        "name": "Portfolio",
+        "name": "Portafolio",
         "link": "/portfolio"
     },
     {

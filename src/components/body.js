@@ -1,20 +1,30 @@
+import React from "react";
 import Footer from "./footer";
 import Card from "./card";
-export default function body() {
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import ServiceCard from "./service-card";
+export default function Body() {
+useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+}, []);     
     return (
         <div className="container-fluid">
             <div className="row">
-                <h1 className="title center-text">
-                    <strong>Nuestros trabajos</strong>
+                <h1 className="title center-text p-5">
+                    <strong>Modelos de paginas estáticas</strong>
                 </h1>
             </div>
             <Card />
+            
             <div className="row">
-                <h1 className="title center-text">
+                <h1 className="title center-text dsm-gradient-text p-5">
                     <strong>Servicios</strong>
                 </h1>
             </div>
-            <Card />
+            <ServiceCard/>
             <div className="row">
                 <h1 className="title center-text">
                     <strong>Tecnologías con los que trabajamos</strong>
@@ -40,7 +50,7 @@ export default function body() {
                     <strong>Contactos</strong>
                 </h1>
             </div>
-            
+
         </div>
 
     );
