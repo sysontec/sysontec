@@ -1,5 +1,5 @@
 import img from "../cards-img/1.jpeg";
-import movilImg from "../assets/img/img-service/movil.jpg";
+import movilImg from "../assets/img/img-service/aplicaciones.png";
 import webImg from "../assets/img/img-service/web.jpg";
 export default function ServiceCard(props) {
     return (
