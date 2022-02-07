@@ -13,19 +13,21 @@ useEffect(() => {
     AOS.refresh();
 }, []);     
     return (
-        <div className="container-fluid">
-            <div className="row">
+        <div className="container-fluid" >
+            <div className="row pb-5"style={{"background":"#f2f2f2"}}>
                 <h1 className="title center-text p-5">
                     <strong>Modelos de paginas estáticas</strong>
                 </h1>
+                <Card />
             </div>
-            <Card />
             
-            <div className="row">
+            
+            <div className="row"  >
                 <h1 className="title center-text dsm-gradient-text p-5">
                     <strong>Servicios</strong>
                 </h1>
             </div>
+
             <ServiceCard/>
             <AboutMe/>
             <Teams/>

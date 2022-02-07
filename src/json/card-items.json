@@ -1,23 +1,31 @@
 [
     {
-        "img":"1.jpeg",
-        "title":"Paginas estaticas",
-        "content":"Sistema web que contiene paginas estaticas",
+        "img":"demo1.png",
+        "title":"Página estática",
+        "content":"Sistema web que contiene paginas estática",
         "btn-text":"Ver demo",
-        "btn-link":"https://www.facebook.com"
+        "btn-link":"http://pagiasdemo.mywebcommunity.org/demo1"
     },
     {
-        "img":"1.jpeg",
-        "title":"Paginas estaticas",
-        "content":"Sistema web que contiene paginas estaticas",
+        "img":"demo2.png",
+        "title":"Página estática",
+        "content":"Sistema web que contiene paginas estática",
         "btn-text":"Ver demo",
-        "btn-link":"https://www.google.com"
+        "btn-link":"http://pagiasdemo.mywebcommunity.org/demo2"
     },
     {
-        "img":"1.jpeg",
-        "title":"Paginas estaticas",
-        "content":"Sistema web que contiene paginas estaticas",
+        "img":"demo3.png",
+        "title":"Página estática",
+        "content":"Sistema web que contiene paginas estática",
         "btn-text":"Ver demo",
-        "btn-link":"https://www.google.com"
+        "btn-link":"http://pagiasdemo.mywebcommunity.org/demo3"
+    },
+    
+    {
+        "img":"demo4.png",
+        "title":"Página estática",
+        "content":"Sistema web que contiene paginas estática",
+        "btn-text":"Ver demo",
+        "btn-link":"http://pagiasdemo.mywebcommunity.org/demo4"
     }
 ]

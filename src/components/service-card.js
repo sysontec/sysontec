@@ -3,9 +3,9 @@ import movilImg from "../assets/img/img-service/aplicaciones.png";
 import webImg from "../assets/img/img-service/web.jpg";
 export default function ServiceCard(props) {
     return (
-        <div className="row" style={{"padding-left":"30px","padding-right":"30px"}}>
+        <div className="row" style={{"padding-left":"30px","padding-right":"30px","padding-bottom":"50px"}}>
             <div className="col col-lg-4 col-md-6 "  >
-                <div className="card mx-auto animated-card box-effect"  >
+                <div className="card mx-auto animated-card  service-card"  >
                     <img src={movilImg} className="card-img-top"  sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1620px, 100vw" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Aplicaciones móviles</h5>
@@ -16,7 +16,7 @@ export default function ServiceCard(props) {
                 </div>
             </div>
             <div className="col col-lg-4 col-md-6 ">
-                <div className="card mx-auto animated-card box-effect"  >
+                <div className="card mx-auto animated-card service-card"  >
                     <img src={webImg} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Aplicaciones Wpeb</h5>
@@ -27,7 +27,7 @@ export default function ServiceCard(props) {
                 </div>
             </div>
             <div className="col col-lg-4 col-md-6 ">
-                <div className="card mx-auto animated-card box-effect" >
+                <div className="card mx-auto animated-card service-card" >
                     <img src={img} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Software a medida</h5>
