@@ -21,6 +21,7 @@ margin: 0;
     list-style: none;
     font-size: 30px;
     color: #33adff;
+    transition: all .2s;
 
 }
 .social-icon:hover{
@@ -28,6 +29,9 @@ margin: 0;
      padding: 5px;
      border-radius: 5px;
      color: #fff;
+}
+.service-card{
+    transition: all .3s;
 }
  .service-card:hover{
     box-shadow: 1px 1px 25px 0px rgba(0,0,0,0.75);

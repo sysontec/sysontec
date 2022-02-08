@@ -21,9 +21,9 @@ export default function header(){
                     <div className="collapse navbar-collapse space" id="navbarNav">
                         <ul className="navbar-nav px-12">
                             {
-                                navItems.map((item) => {
+                                navItems.map((item,index) => {
                                     return (
-                                        <li className="nav-item underline">
+                                        <li className="nav-item underline" key={index}>
                                             <Link to={item.link} className="nav-link">{item.name}</Link>
                                         </li>
                                     );
