@@ -4,13 +4,13 @@ const TeamPhoto= require.context("../assets/img/img-teams", true);
 export default function Teams() {
     return (
         <>
-            <div className="row">
+            <div className="row" id="team">
                 <h1 className="title center-text p-5">
                     Nuestro equipo
                 </h1>
-                <p className="lead center-text p-5">
+                <p className="lead center-text ">
                     Nuestro equipo esta conformado por profesionales con conocimientos y experiencia en el desarrollo de 
-                    de Software web, móvil y aplicaciones de escritorio.
+                    de Software web, móvil y aplicaciones de escritorio, con fin de dar soluciones optimas a pequeñas, medianos y grandes empresas.
 
                 </p>
             </div>

@@ -20,12 +20,12 @@ margin: 0;
     margin: 0;
     list-style: none;
     font-size: 30px;
-    color: #33adff;
+     color: #b3b3b3;/*#33adff; */
     transition: all .2s;
 
 }
 .social-icon:hover{
-     background: #1aa3ff;
+     background: #999999;
      padding: 5px;
      border-radius: 5px;
      color: #fff;
@@ -57,5 +57,26 @@ margin: 0;
     }
     .box-effect{
         margin-bottom: 10px ;
+    }
+}
+
+@media (max-width:500px){
+    .teams-photo-container{
+        display: flex;
+        min-width: 200px;
+        max-width: 320px;
+        margin: auto;
+    
+    }
+    .teams-photo-subcontainer{
+        padding: 0px;
+        padding-left: 0px;
+    }
+    .teams-img{
+        height: auto;
+        width: 100%;
+        margin: auto;
+        padding-right: 3%;
+        padding-top: 0.2%;
     }
 }

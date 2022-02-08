@@ -1,26 +1,26 @@
 [
     {
         "name": "Inicio",
-        "link": "/"
+        "link": "#"
     },
     {
         "name": "Acerca",
-        "link": "/about"
+        "link": "#about"
     },
     {
-        "name": "Contactos",
-        "link": "/contact"
+        "name": "Demos",
+        "link": "#demos"
     },
     {
-        "name": "Precios",
-        "link": "/price"
+        "name": "Servicios",
+        "link": "#services"
     },
     {
-        "name": "Portafolio",
-        "link": "/portfolio"
+        "name": "Nuestro Equipo",
+        "link": "#team"
     },
     {
-        "name": "Blog",
-        "link": "/blog"
+        "name": "contacto",
+        "link": "#contact"
     }
 ]

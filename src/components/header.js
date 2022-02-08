@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import logo from "../img/1.jpg";
 import  "../css/styless.css";
 import Carousel from './carousel';
 import navItems from '../json/navItem.json';
@@ -24,7 +23,7 @@ export default function header(){
                                 navItems.map((item,index) => {
                                     return (
                                         <li className="nav-item underline" key={index}>
-                                            <Link to={item.link} className="nav-link">{item.name}</Link>
+                                            <a href={item.link} className="nav-link">{item.name}</a>
                                         </li>
                                     );
                                 })

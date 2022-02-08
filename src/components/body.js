@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./footer";
 import Card from "./card";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -13,16 +12,16 @@ useEffect(() => {
     AOS.refresh();
 }, []);     
     return (
-        <div className="container-fluid" >
+        <div className="container-fluid" id="demos" >
             <div className="row pb-5"style={{"background":"#f2f2f2"}}>
-                <h1 className="title center-text p-5">
+                <h1 className="title center-text p-5" >
                     <strong>Modelos de paginas estáticas</strong>
                 </h1>
                 <Card />
             </div>
             
             
-            <div className="row"  >
+            <div className="row" id="services" >
                 <h1 className="title center-text dsm-gradient-text p-5">
                     <strong>Servicios</strong>
                 </h1>

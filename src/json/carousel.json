@@ -1,23 +1,19 @@
 [
     {
-        "path":"./2.jpeg",
+        "path":"./16.jpg",
         "title":"Programing",
         "description":"This is a new program",
         "active":true
     },
     {
-        "path":"./3.jpeg",
+        "path":"./ciberseguridad.jpg",
         "title":"Programing 2",
         "description":"This is a new program 2"  
     },
     {
-        "path":"./4.jpeg",
+        "path":"./multidisp.png",
         "title":"Programing 3",
         "description":"This is a new program 3"
-    },
-    {
-        "path":"./5.png",
-        "title":"Last Update",
-        "description":"This is a test image"
     }
+  
 ]

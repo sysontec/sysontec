@@ -1,10 +1,10 @@
 export default function TeamsCard(props) {
     return (
         <>   <div className="col-lg-4 col-md-6">
-            <div className="card mb-3 " >
+            <div className="card mb-3  teams-photo-container" >
                 <div className="row g-0">
-                    <div className="col-md-4 py-3 ps-2">
-                        <img src={props.img} className="img-fluid rounded" alt="..." />
+                    <div className="col-md-4 py-3 ps-2 teams-photo-subcontainer">
+                        <img src={props.img} className="img-fluid rounded teams-img" alt="..." />
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">
