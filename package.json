@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sysontec.github.io/sysontec",
-  "name": "sysontec",
+  "homepage": "https://ismaelfari1996.github.io/afsoftware",
+  "name": "afsoftware",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
+    "gh-pages": "^3.2.3",
     "i": "^0.3.7",
     "npm": "^8.3.2",
     "react": "^17.0.2",
@@ -27,7 +28,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-
   },
   "eslintConfig": {
     "extends": [
