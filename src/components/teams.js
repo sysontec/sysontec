@@ -6,7 +6,7 @@ export default function Teams() {
         <>
             <div className="row" id="team">
                 <h1 className="title center-text p-5">
-                    Nuestro equipo
+                    Nuestro Equipo
                 </h1>
                 <p className="lead center-text ">
                     Nuestro equipo esta conformado por profesionales con conocimientos y experiencia en el desarrollo de 

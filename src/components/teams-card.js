@@ -12,7 +12,7 @@ export default function TeamsCard(props) {
                             <p className="card-text">{props.job}
                             </p>
                             <hr />
-                            Follow me on:
+                            Sigueme en:
                             <ul className="list-inline text-center">
                                 <li className="list-inline-item ">
                                     <a className="social-icon" href={props.facebook} target="_blank" rel="noopener noreferrer">

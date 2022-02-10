@@ -14,7 +14,7 @@ export default function header(){
                     </button>
                     <Link className="navbar-brand " to="/" >
                         {/* <img src={logo} alt="" width="100" height="60" class="d-inline-block align-text-top"/> */}
-                        AF Software
+                        SySon TEC
                     </Link>
 
                     <div className="collapse navbar-collapse space" id="navbarNav">
@@ -32,13 +32,13 @@ export default function header(){
                         
                         </ul>
                     </div>
-                   <a href="https://www.facebook.com" className="btn btn-dark">
+                   <a href="https://www.facebook.com" rel="noreferrer noopener" target={"_blank"} className="btn btn-dark">
                     <i className="fab fa-facebook"></i>
                     </a>
-                    <a href="https://www.whatsapp.com" className="btn btn-dark">
+                    <a href="https://www.whatsapp.com" className="btn btn-dark" rel="noreferrer noopener" target={"_blank"}>
                     <i className="fab fa-whatsapp"></i>
                     </a>
-                    <a href="https://www.instagram.com" className="btn btn-dark">
+                    <a href="https://www.instagram.com" className="btn btn-dark" rel="noreferrer noopener" target={"_blank"}>
                     <i className="fab fa-instagram"></i>
                     </a>
                     {/* <a href="https://www.twitter.com" className="btn btn-dark">

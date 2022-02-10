@@ -15,7 +15,7 @@ useEffect(() => {
         <div className="container-fluid" id="demos" >
             <div className="row pb-5"style={{"background":"#f2f2f2"}}>
                 <h1 className="title center-text p-5" >
-                    <strong>Modelos de paginas estáticas</strong>
+                    <strong>Modelos de Páginas Estáticas</strong>
                 </h1>
                 <Card />
             </div>

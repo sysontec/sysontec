@@ -8,7 +8,7 @@ export default function ServiceCard(props) {
                 <div className="card mx-auto animated-card  service-card"  >
                     <img src={movilImg} className="card-img-top"  sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1620px, 100vw" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">Aplicaciones móviles</h5>
+                        <h5 className="card-title">Aplicaciones Móviles</h5>
                         <p className="lead card-text">Diseño y desarrollo de aplicaciones
                             móviles para plataformas Android.
                         </p>
@@ -19,7 +19,7 @@ export default function ServiceCard(props) {
                 <div className="card mx-auto animated-card service-card"  >
                     <img src={webImg} className="card-img-top" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">Aplicaciones Wpeb</h5>
+                        <h5 className="card-title">Aplicaciones Web</h5>
                         <p className="lead card-text">Análisis, diseño y desarrollo de páginas web
                         estáticas y dinámicas, de acorde a las necesidades de su empresa.
                         </p>
@@ -30,7 +30,7 @@ export default function ServiceCard(props) {
                 <div className="card mx-auto animated-card service-card" >
                     <img src={img} className="card-img-top" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">Software a medida</h5>
+                        <h5 className="card-title">Software a Medida</h5>
                         <p className=" lead card-text">
                             Aplicaciones web y móviles para la gestión de negocios, que
                             se adapten a sus necesidades.
