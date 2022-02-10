@@ -9,6 +9,7 @@ import Teams from "./teams";
 export default function Body() {
 useEffect(() => {
     AOS.init();
+    
     AOS.refresh();
 }, []);     
     return (
