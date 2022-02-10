@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import ServiceCard from "./service-card";
 import AboutMe from "./aboutme";
 import Teams from "./teams";
+import OtherServices from "./other-services";
 export default function Body() {
 useEffect(() => {
     AOS.init();
@@ -16,7 +17,7 @@ useEffect(() => {
         <div className="container-fluid" id="demos" >
             <div className="row pb-5"style={{"background":"#f2f2f2"}}>
                 <h1 className="title center-text p-5" >
-                    <strong>Modelos de Páginas Estáticas</strong>
+                    <strong>Modelos de Páginas</strong>
                 </h1>
                 <Card />
             </div>
@@ -29,6 +30,12 @@ useEffect(() => {
             </div>
 
             <ServiceCard/>
+            <div className="row" id="services" >
+                <h1 className="title center-text dsm-gradient-text p-5">
+                    <strong>Servicios Adicionales</strong>
+                </h1>
+            </div>
+            <OtherServices/>
             <AboutMe/>
             <Teams/>
                 
