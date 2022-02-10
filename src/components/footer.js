@@ -12,11 +12,10 @@ export default function Footer() {
                         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
                             <h6 className="text-uppercase fw-bold mb-4">
-                                <i className="fas fa-gem me-3"></i>Company name
+                                <i className="fas fa-gem me-3"></i>SySon TEC
                             </h6>
                             <p>
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                dolor sit amet, consectetur adipisicing elit.
+                            Más vale tarde que nunca, digitallizate hoy, el futuro es tuyo. 
                             </p>
                         </div>
 
@@ -71,10 +70,10 @@ export default function Footer() {
                             <p><i className="fas fa-home me-3"></i> Quito, Ecuador</p>
                             <p>
                                 <i className="fas fa-envelope me-3"></i>
-                                info@example.com
+                                sysontec@outlook.com
                             </p>
-                            <p><i className="fab fa-whatsapp"></i> + 01 234 567 88</p>
-                            <p><i className="fab fa-telegram-plane"></i> + 01 234 567 89</p>
+                            <p><i className="fab fa-whatsapp"></i> +593 984100360</p>
+                            <p><i className="fab fa-telegram-plane"></i> +593 999545982</p>
 
                         </div>
 
@@ -84,7 +83,7 @@ export default function Footer() {
             </section>
 
             <div className="text-center p-4" style={{ "backgroundColor": "rgba(0, 0, 0, 0.05)" }}>
-                © 2021 Copyright
+                © 2022 SySon TEC
 
             </div>
 

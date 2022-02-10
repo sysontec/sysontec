@@ -31,9 +31,9 @@ export default function TeamsCard(props) {
                                 </li>
 
                                 <li className="list-inline-item">
-                                    <a className="social-icon" href={props.github} target="_blank" rel="noopener noreferrer">
+                                   { props.github===""?"":<a className="social-icon" href={props.github} target="_blank" rel="noopener noreferrer">
                                         <i className="fab fa-github"></i>
-                                    </a>
+                                    </a>}
                                 </li>
                             </ul>
 
