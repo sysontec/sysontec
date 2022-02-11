@@ -10,8 +10,8 @@ export default function OtherServices(){
             </div>
             <ul className="list-group list-group-flush">
                 <li className="list-group-item">Cableado estructurado</li>
-                <li className="list-group-item">LAN, Wriless</li>
-                <li className="list-group-item">Telefonia Voz IP</li>
+                <li className="list-group-item">LAN, Wireless</li>
+                <li className="list-group-item">Telefonía Voz IP</li>
                 <li className="list-group-item">Instalación/configuración de Cámaras</li>
             </ul>
         </div>

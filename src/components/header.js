@@ -31,7 +31,7 @@ export default function header(){
                         
                         </ul>
                     </div>
-                   <a href="https://www.facebook.com" rel="noreferrer noopener" target={"_blank"} className="btn btn-dark">
+                   <a href="https://www.facebook.com/Syson-Tec-103802495567026" rel="noreferrer noopener" target={"_blank"} className="btn btn-dark">
                     <i className="fab fa-facebook"></i>
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=593984100360&text=Hola,%20estoy%20interesado" className="btn btn-dark" rel="noreferrer noopener" target={"_blank"}>

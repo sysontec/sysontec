@@ -2,21 +2,21 @@
     {
         "img":"demo1.png",
         "title":"Página estática",
-        "content":"Página informativa para empresas",
+        "content":"Modelo de página para mostrar información de pequeñas, medianas y grandes empresas",
         "btn-text":"Ver demo",
         "btn-link":"http://pagiasdemo.mywebcommunity.org/demo1"
     },
     {
         "img":"demo2.png",
         "title":"Página estática",
-        "content":"Página informativa personal",
+        "content":"Modelo de página para mostrar información personal",
         "btn-text":"Ver demo",
         "btn-link":"http://pagiasdemo.mywebcommunity.org/demo2"
     },
     {
         "img":"demo3.png",
-        "title":"Página estática",
-        "content":"Página informativa para empresas",
+        "title":"Modelo de pagina",
+        "content":"Modelo de página para mostrar información de pequeñas, medianas y grandes empresas",
         "btn-text":"Ver demo",
         "btn-link":"http://pagiasdemo.mywebcommunity.org/demo3"
     },
@@ -24,7 +24,7 @@
     {
         "img":"demo4.png",
         "title":"Página estática",
-        "content":"Página informativa para empresas",
+        "content":"Modelo de página para mostrar información de pequeñas, medianas y grandes empresas",
         "btn-text":"Ver demo",
         "btn-link":"http://pagiasdemo.mywebcommunity.org/demo4"
     }
