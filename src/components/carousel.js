@@ -19,10 +19,12 @@ export default function Carousel() {
                     imgs.map((item, index) => {
                         return (
                             <div key={index} className={item.active?"carousel-item h-inherit w-inherit w-100 active":"carousel-item h-inherit w-inherit w-100"} data-bs-interval="2000">
+                                
                                 <img src= {images(item.path)} className="d-block w-100" height={height} id="carousel-img" alt="..." />
-                                <div className="carousel-caption d-none d-md-block">
+                                <div className="carousel-caption d-none d-md-block text-transparent" >
                                     {/* <button type="button" className="btn btn-primary" >{item.title}</button> */}
-                                    <p>{item.description}</p>
+                                  
+                                    <h1 className="display-3 carousel-caption-title" >{item.description}</h1>
                                 </div>  
                             </div>
                         );
