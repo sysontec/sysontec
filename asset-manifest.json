@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sysontec/static/css/main.5ac54cdc.css",
-    "main.js": "/sysontec/static/js/main.a9ec2351.js",
+    "main.css": "/sysontec/static/css/main.db58f0b0.css",
+    "main.js": "/sysontec/static/js/main.8958e5e8.js",
     "static/media/demo2.png": "/sysontec/static/media/demo2.9fd5450cf9385fb8dfe9.png",
     "static/media/demo3.png": "/sysontec/static/media/demo3.77272aa9e947cf6a514a.png",
     "static/media/ciberseguridad.jpg": "/sysontec/static/media/ciberseguridad.32d5180c71a024f35e3a.jpg",
@@ -12,15 +12,16 @@
     "static/media/web.jpg": "/sysontec/static/media/web.e41bcb21a99456ac1cb2.jpg",
     "static/media/steven.jpeg": "/sysontec/static/media/steven.0edbb9bccc141bb5a0be.jpeg",
     "static/media/16.jpg": "/sysontec/static/media/16.5338e0e9ab32bbda6f35.jpg",
+    "static/media/whatsapp.png": "/sysontec/static/media/whatsapp.d026940870fb334920b7.png",
     "static/media/leonel.jpeg": "/sysontec/static/media/leonel.f5f7e0ac5e7720dd4faa.jpeg",
     "static/media/ismael.jpg": "/sysontec/static/media/ismael.33200d39ef7486891711.jpg",
     "static/media/multidisp.png": "/sysontec/static/media/multidisp.d5b0932e1ef19e198c37.png",
     "index.html": "/sysontec/index.html",
-    "main.5ac54cdc.css.map": "/sysontec/static/css/main.5ac54cdc.css.map",
-    "main.a9ec2351.js.map": "/sysontec/static/js/main.a9ec2351.js.map"
+    "main.db58f0b0.css.map": "/sysontec/static/css/main.db58f0b0.css.map",
+    "main.8958e5e8.js.map": "/sysontec/static/js/main.8958e5e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ac54cdc.css",
-    "static/js/main.a9ec2351.js"
+    "static/css/main.db58f0b0.css",
+    "static/js/main.8958e5e8.js"
   ]
 }
