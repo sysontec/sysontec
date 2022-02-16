@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sysontec/static/css/main.db58f0b0.css",
-    "main.js": "/sysontec/static/js/main.8958e5e8.js",
+    "main.css": "/sysontec/static/css/main.5fa28790.css",
+    "main.js": "/sysontec/static/js/main.c6347c47.js",
     "static/media/demo2.png": "/sysontec/static/media/demo2.9fd5450cf9385fb8dfe9.png",
     "static/media/demo3.png": "/sysontec/static/media/demo3.77272aa9e947cf6a514a.png",
     "static/media/ciberseguridad.jpg": "/sysontec/static/media/ciberseguridad.32d5180c71a024f35e3a.jpg",
@@ -17,11 +17,11 @@
     "static/media/ismael.jpg": "/sysontec/static/media/ismael.33200d39ef7486891711.jpg",
     "static/media/multidisp.png": "/sysontec/static/media/multidisp.d5b0932e1ef19e198c37.png",
     "index.html": "/sysontec/index.html",
-    "main.db58f0b0.css.map": "/sysontec/static/css/main.db58f0b0.css.map",
-    "main.8958e5e8.js.map": "/sysontec/static/js/main.8958e5e8.js.map"
+    "main.5fa28790.css.map": "/sysontec/static/css/main.5fa28790.css.map",
+    "main.c6347c47.js.map": "/sysontec/static/js/main.c6347c47.js.map"
   },
   "entrypoints": [
-    "static/css/main.db58f0b0.css",
-    "static/js/main.8958e5e8.js"
+    "static/css/main.5fa28790.css",
+    "static/js/main.c6347c47.js"
   ]
 }
