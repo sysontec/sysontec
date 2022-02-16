@@ -8,7 +8,7 @@ export default function Footer() {
          rel="noreferrer noopener"
          >
         {/* <i className="fab fa-brands fa-whatsapp text-center"></i> */}
-        < img src={icon}></img>
+        < img src={icon}     alt="Whatsapp"></img>
         </a>
         <footer className="text-center text-lg-start bg-light text-muted pt-3" id="contact">
             <section className="">
