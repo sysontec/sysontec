@@ -24,7 +24,7 @@ export default function PriceCard() {
                                     <h4 className="caps center-text"><strong>{item.plan}</strong></h4>
                                 </div>
                                 <div className="prices text-center" style={{ "background": item.background }} id="price-card">
-                                    <strong>$ {item.precio}<i>/Anual</i></strong>
+                                    <strong>$ {item.precio}</strong>
                                    {/* <b>Regularly <em>$16.99</em></b>
                                      <a href="#">
                                         Sign Up
