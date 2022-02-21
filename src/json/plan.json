@@ -1,0 +1,14 @@
+[
+    {
+        "plan":"Básico",
+        "precio":80,
+        "background":"#b3b3b3",
+        "detalle":["1 año gratis,Hosting y dominio","3-4,secciones","Adaptable, Dispositivos móviles","Vinculación, Whatsapp y Messenger"]
+    },
+    {
+        "plan":"Pro",
+        "precio":120,
+        "background":"#3385ff",
+        "detalle":["1 año gratis,Hosting y dominio","4-9,secciones","Adaptable, Dispositivos móviles","Vinculación,Redes sociales","Idiomas, Inglés - Español",",Galeria de productos con 10 imágenes"]
+    }
+]

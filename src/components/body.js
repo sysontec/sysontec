@@ -7,6 +7,7 @@ import ServiceCard from "./service-card";
 import AboutMe from "./aboutme";
 import Teams from "./teams";
 import OtherServices from "./other-services";
+import PriceCard from "./price";
 export default function Body() {
 useEffect(() => {
     AOS.init();
@@ -30,12 +31,13 @@ useEffect(() => {
             </div>
 
             <ServiceCard/>
-            <div className="row" id="services" >
+            <div className="row" id="services" style={{"background":"#f2f2f2"}}>
                 <h1 className="title center-text dsm-gradient-text p-5">
                     <strong>Servicios Adicionales</strong>
                 </h1>
             </div>
             <OtherServices/>
+            <PriceCard/>
             <AboutMe/>
             <Teams/>
                 

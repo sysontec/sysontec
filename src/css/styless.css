@@ -33,7 +33,7 @@ margin: 0;
 .service-card{
     transition: all .3s;
 }
- .service-card:hover{
+ .price-target, .service-card:hover{
     box-shadow: 1px 1px 25px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 1px 1px 25px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 1px 25px 0px rgba(0,0,0,0.75);
@@ -83,6 +83,94 @@ margin: 0;
     font-size: 50px;
     border-radius: 50%;
     color: white;
+}
+
+/*Service price card */
+.planbox {
+    float: left;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+}
+.highlight{
+    color: #91DA32;
+}
+.planbox .title {
+    float: left;
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+}
+.planbox .prices {
+    background: #86c724;
+    display: inline-block;
+    margin-bottom: 35px;
+    position: relative;
+    width: 100%;
+    padding: 20px 0px 23px 0px;
+    color: #fff;
+}
+.planbox li.last {
+    border-bottom: none;
+}
+.planbox li {
+    float: left;
+    width: 100%;
+    padding: 3px 0px;
+    color: #2a363f;
+    border-bottom: 1px solid #eee;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.planbox ul {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    list-style: none;
+}
+
+.planbox.highlight .prices a {
+    color: #86c724;
+    background: #fff;
+}
+.planbox .prices a {
+    color: #5f686f;
+    font-size: 14px;
+    background: #fff;
+    padding: 11px 32px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.planbox .prices strong {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    display: block;
+}
+.planbox .prices b {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    display: block;
+    margin-bottom: 20px;
+}
+.planbox .prices b em {
+    font-style: normal;
+    text-decoration: line-through;
+}
+
+/* end*/
+.caps{
+    color: black;
+}
+#price-card{
+   
+border-radius: 5px;
 }
 
 @media (max-width: 978px) {

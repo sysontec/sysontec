@@ -3,9 +3,17 @@ import Carousel from './carousel';
 import navItems from '../json/navItem.json';
 import Footer from './footer';
 import Body from './body';
+import PriceCard from "./price";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+  } from "react-router-dom";
 export default function header(){
     return (
        <>
+       {/* <Router> */}
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
                 <div className="container-fluid ">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +30,8 @@ export default function header(){
                                 navItems.map((item,index) => {
                                     return (
                                         <li className="nav-item underline" key={index}>
-                                            <a href={item.link} className="nav-link">{item.name}</a>
+                                          {/* { item.islink? <Link to={item.link} className="nav-link">{item.name}</Link>: */}
+                                           <a href={item.link} className="nav-link">{item.name}</a>
                                         </li>
                                     );
                                 })
@@ -53,6 +62,10 @@ export default function header(){
     
            <Body/> 
             <Footer/>
+           {/*  <Routes>
+                <Route path="/price" element={<PriceCard></PriceCard>}></Route>
+            </Routes>
+            </Router> */}
       </>  
 
     );

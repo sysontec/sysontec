@@ -16,6 +16,11 @@
         "link": "#services"
     },
     {
+        "name":"Precios",
+        "link":"#price",
+        "islink":true
+    },
+    {
         "name": "Nuestro Equipo",
         "link": "#team"
     },
@@ -23,4 +28,5 @@
         "name": "Contacto",
         "link": "#contact"
     }
+   
 ]
